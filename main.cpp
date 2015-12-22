@@ -15,6 +15,8 @@ int main()
 	stage.init();
 	window.init();
 
+	advCore.postInit();
+
 	// Go to main loop
 	advCore.mainLoop();
 

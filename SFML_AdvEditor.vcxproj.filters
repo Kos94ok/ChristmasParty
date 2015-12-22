@@ -57,6 +57,12 @@
     <ClCompile Include="stage_st2.cpp">
       <Filter>Modules\Stages\Main</Filter>
     </ClCompile>
+    <ClCompile Include="stage_st3.cpp">
+      <Filter>Modules\Stages\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stage_st4.cpp">
+      <Filter>Modules\Stages\Main</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\AdvLib\advlib.h">

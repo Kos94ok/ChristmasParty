@@ -35,7 +35,9 @@ void cWindowMain::display()
 {
 	texHandle.clear();
 
-	advUI.paint(&texHandle);
+	if (!advCore.isInitializing()) {
+		advUI.paint(&texHandle);
+	}
 
 	texHandle.display();
 	sf::Sprite spr(texHandle.getTexture());
